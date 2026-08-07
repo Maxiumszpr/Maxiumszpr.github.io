@@ -23,18 +23,46 @@
 
     <main id="top" class="page">
       <aside class="profile-card" aria-label="Profile">
-        <div class="avatar" aria-hidden="true">
-          <span>YJ</span>
+        <div class="avatar">
+          <img src="assets/profile.jpg" alt="Yutao Jin profile photo">
         </div>
         <h1>Yutao Jin</h1>
+        <p class="role">Undergraduate Researcher</p>
         <p class="affiliation">Tianjin University of Technology</p>
         <p class="affiliation">University of Quebec</p>
 
-        <div class="profile-links">
-          <a href="mailto:1541657386@stud.tjut.edu.cn">Email</a>
-          <a href="assets/Yutao_Jin_CV.pdf">CV</a>
-          <a href="https://scholar.google.com/citations?user=cxozOBMAAAAJ&hl=zh-CN">Google Scholar</a>
-          <a href="#publications">Publications</a>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:1541657386@stud.tjut.edu.cn" aria-label="Email" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z"></path>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+          </a>
+          <a href="https://maxiumszpr.github.io/assets/Yutao_Jin_CV.pdf" aria-label="CV" title="CV">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 3h7l4 4v14H7z"></path>
+              <path d="M14 3v5h5"></path>
+              <path d="M9 13h6"></path>
+              <path d="M9 17h6"></path>
+            </svg>
+          </a>
+          <a href="https://scholar.google.com/citations?user=cxozOBMAAAAJ&hl=zh-CN" aria-label="Google Scholar" title="Google Scholar">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 9 12 4l9 5-9 5z"></path>
+              <path d="M6 11v5c2 2 10 2 12 0v-5"></path>
+              <path d="M21 9v6"></path>
+            </svg>
+          </a>
+          <a href="https://maxiumszpr.github.io/#publications" aria-label="Publications" title="Publications">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 6h12"></path>
+              <path d="M8 12h12"></path>
+              <path d="M8 18h12"></path>
+              <path d="M4 6h.01"></path>
+              <path d="M4 12h.01"></path>
+              <path d="M4 18h.01"></path>
+            </svg>
+          </a>
         </div>
 
       </aside>
@@ -82,20 +110,20 @@
 
         <section id="research" class="section">
           <h2>Research Interests</h2>
-          <div class="interest-grid">
-            <article>
+          <div class="interest-list">
+            <article class="interest-item">
               <h3>Crack Segmentation</h3>
               <p>Efficient, structure-aware, and topology-preserving models for thin and low-contrast cracks.</p>
             </article>
-            <article>
+            <article class="interest-item">
               <h3>RGB-X Fusion</h3>
               <p>Reliable multimodal perception with RGB, depth, thermal, and polarization information.</p>
             </article>
-            <article>
+            <article class="interest-item">
               <h3>Time-Series Modeling</h3>
               <p>Lightweight spatio-temporal learning for wind power forecasting and SCADA monitoring.</p>
             </article>
-            <article>
+            <article class="interest-item">
               <h3>Anomaly Detection</h3>
               <p>Frequency-aware representations for noisy, data-scarce, semi-structured event streams.</p>
             </article>
